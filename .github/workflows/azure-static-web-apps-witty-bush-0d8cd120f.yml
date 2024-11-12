@@ -44,7 +44,7 @@ jobs:
           api_location: "."                # Path to your .NET API
           app_build_command: "npm run build"
           api_build_command: "dotnet publish -c Release -o ./wwwroot/api"
-          output_location: "./wwwroot/dist"  # The output location for your client build
+          output_location: "./ClientApp/dist"  # The output location for your client build
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
