@@ -5,7 +5,7 @@
   "scripts": {
     "start": "echo Starting the development server && vite --host ::",
     "dev": "vite",
-    "build": "vite build --emptyOutDir"
+    "build": "  npm install && vite build --emptyOutDir"
   },
   "author": "Martijn Boland",
   "license": "MIT",
